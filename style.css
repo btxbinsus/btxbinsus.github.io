@@ -1,0 +1,84 @@
+/* * {
+  font-family: 'Bebas Neue', cursive;
+} */
+#logo-navbar {
+  position: relative;
+  right: 40px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 450px) {
+  #logo-navbar {
+    display: none;
+  }
+
+  .globe {
+    position: relative;
+    bottom: 100px;
+    z-index: -1;
+  }
+
+  .home-text {
+    position: relative;
+    z-index: 2;
+  }
+  .sc-text {
+    position: relative;
+    bottom: 90px;
+  }
+  #mini-galery {
+    position: relative;
+    bottom: 100px;
+  }
+
+  svg {
+    margin-top: 30px;
+  }
+
+  .img-footer {
+    position: relative;
+    top: 5px;
+    width: 40px;
+  }
+}
+.jumbotron {
+  background-image: linear-gradient(rgb(4, 4, 156), white);
+  margin-top: 3.5rem;
+  padding-top: 100px;
+}
+lord-icon {
+  position: relative;
+  bottom: 10px;
+}
+
+.gbr {
+  border-radius: 30px;
+}
+
+.home-text {
+  color: white;
+}
+
+.sc-text {
+  margin-bottom: 20px;
+}
+#contact {
+  margin-top: 30px;
+}
+svg {
+  position: relative;
+  top: 5px;
+}
+footer {
+  background-color: #09099e;
+  padding-bottom: 3rem;
+}
+footer img {
+  position: relative;
+  top: 5px;
+}
+/* 
+#carouselExampleCaptions {
+  height: 200px;
+  width: 400px;
+} */
